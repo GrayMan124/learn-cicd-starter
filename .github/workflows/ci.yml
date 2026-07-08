@@ -43,7 +43,7 @@ jobs:
       - name: Staticcheck
         run: test -z $(staticcheck ./...)
     
-  security:
+  gosec:
     name: Security
     runs-on: ubuntu-latest
     
