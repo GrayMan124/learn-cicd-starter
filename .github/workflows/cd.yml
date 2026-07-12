@@ -29,9 +29,7 @@ jobs:
       - name: Run DB migrations
         run: scripts/migrateup.sh
 
-  # job_id:
   #   name: 'Deploy to GCP'
-  #   runs-on
   #   steps:
       - id: 'auth'
         uses: 'google-github-actions/auth@v2'
